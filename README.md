@@ -1,2 +1,2 @@
-# taksh-game-site
+# index.html
 very good
