@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Taksh's Game World</title>
+
+<style>
+body{
+font-family:Arial;
+text-align:center;
+background:lightblue;
+}
+
+h1{
+color:darkblue;
+}
+
+.game{
+background:white;
+width:250px;
+margin:15px auto;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 8px gray;
+}
+
+button{
+padding:8px 15px;
+background:orange;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:gold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🎮 Taksh's Game World 🎮</h1>
+
+<div class="game">
+<h2>Minecraft</h2>
+<p>Build and explore amazing worlds.</p>
+<button onclick="alert('Minecraft is awesome!')">Play</button>
+</div>
+
+<div class="game">
+<h2>Roblox</h2>
+<p>Play thousands of games with friends.</p>
+<button onclick="alert('Roblox time!')">Play</button>
+</div>
+
+<div class="game">
+<h2>Subway Surfers</h2>
+<p>Run and collect coins.</p>
+<button onclick="alert('Run fast!')">Play</button>
+</div>
+
+</body>
+
+</html>
